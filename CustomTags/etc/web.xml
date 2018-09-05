@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	
+	<servlet>
+		<servlet-name>LoopingWithoutScripting.do</servlet-name>
+		<servlet-class>com.jeya.LoopingWithoutScripting</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoopingWithoutScripting.do</servlet-name>
+		<url-pattern>/LoopingWithoutScripting.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>LoopingWithScripting.do</servlet-name>
+		<servlet-class>com.jeya.LoopingWithScripting</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoopingWithScripting.do</servlet-name>
+		<url-pattern>/LoopingWithScripting.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>LoopingNestedWithoutScripting.do</servlet-name>
+		<servlet-class>com.jeya.LoopingNestedWithoutScripting</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoopingNestedWithoutScripting.do</servlet-name>
+		<url-pattern>/LoopingNestedWithoutScripting.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ConditionalInclude.do</servlet-name>
+		<servlet-class>com.jeya.ConditionalInclude</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ConditionalInclude.do</servlet-name>
+		<url-pattern>/ConditionalInclude.do</url-pattern>
+	</servlet-mapping>
+	<session-config>
+		<session-timeout>15</session-timeout>
+	</session-config>
+</web-app>
