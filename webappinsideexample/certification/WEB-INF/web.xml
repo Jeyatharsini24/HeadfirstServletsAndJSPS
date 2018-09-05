@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	
+	<servlet>
+		<servlet-name>Chapter 1 Servlet</servlet-name>
+		<servlet-class>Ch1Servlet</servlet-class>
+		
+		<init-param>
+			<param-name>adminMail</param-name>
+			<param-value>6tharshi@gmail.com</param-value>
+		</init-param>
+	</servlet>
+	<servlet>
+		<servlet-name>Chapter 4 Servlet</servlet-name>
+		<servlet-class>CodeReturn</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Chapter 1 Servlet</servlet-name>
+		<url-pattern>/ch1/Serv1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Chapter 4 Servlet</servlet-name>
+		<url-pattern>/ch4/Serv2</url-pattern>
+	</servlet-mapping>
+</web-app>
+
