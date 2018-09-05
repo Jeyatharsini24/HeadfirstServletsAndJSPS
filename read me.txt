@@ -1,0 +1,22 @@
+440: servlet
+608: Design pattern
+
+is "com.test" key acceptable in Map java?
+
+for/in or for each
+
+javac -classpath "E:\pgm\Installation\Apache\Tomcat 8.0\lib\servlet-api.jar";classes -d classes src\com\example\model\*.java src\com\example\web\*.java
+
+javac -classpath "E:\pgm\Installation\Apache\Tomcat 8.0\lib\servlet-api.jar";classes -d classes src\com\jeya\*.java
+
+tomcat8-stdout.2018-01-01.log
+
+http://localhost:8080/ch5/cookieTest.do
+
+http://localhost:8080/certification/ch4/Serv2
+
+http://localhost:8080/CustomTags/ConditionalInclude.do
+
+1/6/2
+
+6379
